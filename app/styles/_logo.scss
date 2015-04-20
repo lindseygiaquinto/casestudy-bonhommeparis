@@ -1,0 +1,9 @@
+// logo.scss
+
+.logo {
+	text-decoration: none;
+	color: $black;
+	  &:hover {
+	  opacity: 0.6;
+	  }
+}

@@ -1,22 +1,14 @@
 // main.scss
 
-body {
-  background: yellow;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #333;
-
-}
-
 @import "variables";
 @import "globals";
 
 // modules
+@import "css-module";
 @import "main-nav";
 @import "logo";
 @import "site-intro";
 @import "article-block";
 @import "featured";
 @import "about-us";
-@import "awards";
 @import "page-footer";
-@import "css-module";
