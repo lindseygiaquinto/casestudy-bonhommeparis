@@ -1,11 +1,19 @@
 // logo.scss
 
 .logo {
+	position: relative;
 	text-decoration: none;
-	font-size: 0.5em;
+	font-size: 1.5em;
 	font-weight: 900;
 	color: $black;
 	  &:hover {
 	  opacity: 0.6;
+	  }
+	  .dot {
+	    font-size: 0.1em;
+	    padding-left: 0.3em;
+	    position: absolute;
+	    top: 0;
+	    right: 0;
 	  }
 }
