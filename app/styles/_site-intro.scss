@@ -1,0 +1,21 @@
+// site-intro.scss
+
+.site-intro {
+	max-width: 35em;
+	h1 {
+	text-transform: uppercase;
+	font-size: 3.4em;
+	letter-spacing: -0.05em;
+	line-height: 1.5em;
+	font-weight: 900;
+	margin-bottom: 0.5em;
+	}
+	.tagline {
+	max-width: 28em;
+	color: $gray-light;
+	font-size: 0.75em;
+	font-weight: lighter;
+	line-height: 1.9;
+	letter-spacing: 0.04em;
+	}
+}

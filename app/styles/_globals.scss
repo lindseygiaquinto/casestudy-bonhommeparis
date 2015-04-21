@@ -1,9 +1,19 @@
 // globals.scss
 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
-  background: #fff;
+  background: $white;
   font-family: $font-stack;
-  color: #333;
+  color: $black;
+  max-width: 1200 / 16 * 1em;
+  margin: 4em auto;
+  padding: 0 2em;
 }
 
 .browserupgrade {
@@ -11,4 +21,8 @@ body {
   background: #ccc;
   color: #000;
   padding: 0.2em 0;
+}
+
+img {
+  max-width: 100%;
 }
