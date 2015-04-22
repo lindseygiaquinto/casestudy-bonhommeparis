@@ -1,0 +1,25 @@
+// .about-us.scss
+
+.about-us {
+	ul {
+	padding-left: 1em;
+	margin: 0 3.5em 1em 0;
+	}
+	.about-1 {
+	float: left;
+	}
+	.awards {
+	@include clearfix;
+	margin: 0;
+	padding: 0;
+	}
+	.awards p {
+	  display: block;
+	  float: left;
+	  margin-right: 4em;
+	  padding: 0 0.5em;
+	  color: $black;
+	  font-weight: 900;
+	  font-size: 0.9em;
+	}
+}

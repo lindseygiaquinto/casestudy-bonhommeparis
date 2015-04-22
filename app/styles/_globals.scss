@@ -26,3 +26,18 @@ body {
 img {
   max-width: 100%;
 }
+
+h2 {
+  border-top: 0.05em solid $gray-lightest;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 1.5em 0;
+  }
+
+li {
+  color: $gray-light;
+  font-size: 0.78em;
+  font-weight: lighter;
+  line-height: 3;
+  letter-spacing: 0.03em;
+}
