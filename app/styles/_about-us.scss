@@ -1,0 +1,12 @@
+// .about-us.scss
+
+.about-us {
+	@include clearfix;
+	ul {
+	padding-left: 1em;
+	margin: 0 2.8em 1em 0;
+	}
+	.grid-1 {
+	  float: left;
+	}
+}

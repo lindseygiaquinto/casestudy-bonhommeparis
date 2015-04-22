@@ -1,16 +1,16 @@
 // awards.scss
 
 	.awards {
-	color: yellow;
-	font-weight: 900;
-	font-size: 0.9em;
 	@include clearfix;
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
 	li {
+	  color: $black;
+	  font-weight: 900;
+	  font-size: 0.8em;
 	  float: left;
-	  padding: 5em 3.4em;
+	  padding: 5em 3em;
 	  margin: 0em;
 	}
 	.x3 {
