@@ -1,1 +1,25 @@
 // awards.scss
+
+	.awards {
+	color: yellow;
+	font-weight: 900;
+	font-size: 0.9em;
+	@include clearfix;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	li {
+	  float: left;
+	  padding: 5em 3.4em;
+	  margin: 0em;
+	}
+	.x3 {
+	  background: url("../images/x3.png") no-repeat top;
+	  }
+	.x10 {
+	  background: url("../images/x10.png") no-repeat top;
+	  }
+	.x5 {
+	  background: url("../images/x5.png") no-repeat top;
+	  }
+	}
