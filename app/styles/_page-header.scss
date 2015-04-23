@@ -1,0 +1,13 @@
+// Page Header
+
+.page-header {
+    @include clearfix;
+    width: 100%;
+    .logo {
+      float: left;
+    }
+	.main-nav {
+	  float: left;
+	  margin-left: 2.8em;
+	}
+}
