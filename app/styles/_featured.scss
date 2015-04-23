@@ -2,7 +2,7 @@
 
 .featured {
 	@include clearfix;
-	.grid-1 {
-	float: left;
-	}
+}
+.hidden {
+	@include visuallyhidden
 }
