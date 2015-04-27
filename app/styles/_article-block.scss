@@ -21,18 +21,10 @@
 	overflow: hidden; 
 	}
 	img {
-	-webkit-transition: all 1s ease;
-     -moz-transition: all 1s ease;
-       -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-          transition: all 1s ease;
+	@include transition;
     }
     img:hover {
-    -webkit-transform:scale(1.05); /* Safari and Chrome */
-     -moz-transform:scale(1.05); /* Firefox */
-     -ms-transform:scale(1.05); /* IE 9 */
-     -o-transform:scale(1.05); /* Opera */
-      transform:scale(1.05);
+    @include transform;
     }
     .small {
 	width: 19.1875em;

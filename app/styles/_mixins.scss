@@ -16,3 +16,19 @@
 	display: table;
 	clear: both;
 }
+
+@mixin transition () {
+	-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+@mixin transform () {
+	-webkit-transform:scale(1.05); /* Safari and Chrome */
+     -moz-transform:scale(1.05); /* Firefox */
+     -ms-transform:scale(1.05); /* IE 9 */
+     -o-transform:scale(1.05); /* Opera */
+      transform:scale(1.05);
+}
