@@ -1,0 +1,8 @@
+// projects.scss
+
+.projects {
+	margin-top: 3em;
+	h2 {
+	@include visuallyhidden; 
+	}
+}

@@ -32,37 +32,48 @@
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <header>
-      <a href="#" class="logo">B</a>
-      <nav class="main nav">
-        <h2>Main Navigation</h2>
-          <ul>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
-    </header>
+    <header class="page-header">
+          <a href="#" class="logo">B<i class=" dot fa fa-circle"></i></a>
 
-    <section class="featured">
+          <nav class="main-nav">
+           <h2>Main Navigation</h2>
+             <ul>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+             </ul>
+           </nav>
+     </header>
+
+    <section class="featured projects">
       <h2>Projects</h2>
-        <article class="article-block">
-          <img src="images/projects/big.jpg" alt="#GIFMYLIVE">
-          <p class="project">#gifmylive</p>
-          <p class="client">Arte</p>
-        </article>
+          <div class="grid-2">
+          <article class="article-block">
+            <div class="grow big">
+             <img src="images/projects/big.jpg" alt="#GIFMYLIVE">
+            </div>
+             <p class="project">#gifmylive</p>
+             <p class="client">Arte</p>
+          </article>
+        </div>
 
-        <article class="article-block">
-          <img src="images/projects/small2.jpg" alt="Politiques &eacute;nerg&eacute;tiques">
-          <p class="project">politiques &eacute;nerg&eacute;tiques</p>
-          <p class="client">Total</p>
-        </article>
+          <div class="grid-1">
+            <article class="article-block">
+            <div class="grow small">
+              <img src="images/projects/small2.jpg" alt="Politiques &eacute;nerg&eacute;tiques">
+            </div>
+              <p class="project">politiques &eacute;nerg&eacute;tiques</p>
+              <p class="client">Total</p>
+          </article>
 
-        <article class="article-block">
-          <img src="images/projects/small11.jpg" alt="Audi Dare It">
-          <p class="project">audi dare it</p>
-          <p class="client">Double 2 x Audi</p>
-        </article>
+          <article class="article-block">
+            <div class="grow small">
+              <img src="images/projects/small11.jpg" alt="Audi Dare It">
+            </div>
+              <p class="project">audi dare it</p>
+              <p class="client">Double 2 x Audi</p>
+          </article>
+        </div>
 
         <article class="article-block">
           <img src="images/projects/small1.jpg" alt="Audi Spotted">
@@ -126,19 +137,25 @@
     </section>
 
     <footer class="page-footer">
-      <p class="logo">Bonhomme</p>
-      
-      <p class="address">10 Rue Vicq d'Azir</br>
-      75010, Paris</br>
-      <a href="#">Google Map</a></p>
+      <div class="grid-1">
+        <p class="logo-footer">Bonhomme</p>
+      </div>
 
-      <p>+33 (0)1 77 12 58 20</p>
-      <a href="#">contact@bonhommeparis.com</a>
-      <ul class="social-media">
-        <li>twitter</li>
-        <li>facebook</li>
-        <li>linkedin</li>
-      </ul>
+      <div class="grid-1">
+        <p class="address">10 Rue Vicq d'Azir</br>
+        75010, Paris</br>
+        <a href="#">Google Map</a></p>
+      </div>
+
+      <div class="grid-1">
+        <p class="phone">+33 (0)1 77 12 58 20</p>
+        <a href="#">contact@bonhommeparis.com</a>
+        <ul class="social-media">
+          <li><a href="#">twitter</a></li>
+          <li><a href="#">facebook</a></li>
+          <li><a href="#">linkedin</a></li>
+        </ul>
+      </div>
       <a href="#" class="language">FR</a>
     </footer>
 
