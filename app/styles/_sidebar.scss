@@ -1,7 +1,11 @@
 // sidebar.scss
 
-.slideshow {
-	height: 611px;
-	width: 330px;
+.sidebar {
+	width: 25%;
+	max-height: 740 / 16 * 1em;
 	overflow: hidden;
+	float: right;
+	img {
+	  width: 100%;
+	}
 }

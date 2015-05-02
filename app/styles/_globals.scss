@@ -8,12 +8,8 @@ html {
 }
 
 body {
-  background: $white;
   font-family: $font-stack;
   color: $black;
-  max-width: 1200 / 16 * 1em;
-  margin: 4em auto;
-  padding: 0 2em;
 }
 
 .browserupgrade {
@@ -46,3 +42,8 @@ li {
 .grid-2 {
   float: left;
   }
+
+.background-wrap {
+  z-index: -1;
+  background: yellow;
+}

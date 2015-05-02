@@ -1,0 +1,11 @@
+// main-content.scss
+
+.main-content-wrap {
+	background: $white;
+	width: 75%;
+	float: left;
+}
+.main-content {
+	width: 680 / 16 * 1em;
+	margin: 4em auto;
+}

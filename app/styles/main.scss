@@ -5,15 +5,16 @@
 @import "globals";
 
 // modules
-@import "css-module";
-@import "main-nav";
-@import "logo";
-@import "site-intro";
-@import "article-block";
-@import "featured";
 @import "about-us";
-@import "page-footer";
+@import "article-block";
 @import "awards";
+@import "css-module";
+@import "featured";
+@import "logo";
+@import "main-nav";
+@import "main-content";
+@import "page-footer";
 @import "page-header";
-@import "sidebar";
 @import "projects";
+@import "sidebar";
+@import "site-intro";
