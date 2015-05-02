@@ -29,6 +29,7 @@ h2 {
   font-weight: 900;
   padding: 1.5em 0;
   max-width: 26.92em;
+  margin-bottom: 0;
   }
 
 li {
@@ -45,5 +46,5 @@ li {
 
 .background-wrap {
   z-index: -1;
-  background: yellow;
+  background: url("../images/marble.jpg") top;
 }
