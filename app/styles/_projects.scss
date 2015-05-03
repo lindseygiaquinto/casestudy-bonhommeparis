@@ -1,12 +1,13 @@
 // projects.scss
 
 .projects-content-wrap {
+	@include clearfix;
 	background: $white;
 	width: 100%;
 }
 .projects-content {
-	width: 1015 / 16 * 1em;
-	margin: 4em 8em auto;
+	width: 985 / 16 * 1em;
+	margin: 4em auto;
 }
 
 .projects {
