@@ -15,21 +15,21 @@
 	padding: .2em 0;
 	margin: 4em auto;
 	.grid {
-	margin: 1em;
+	  margin: 1em;
 	}
 	.logo-footer {
-	text-transform: uppercase;
-	font-size: 1.2em;
-	font-weight: 900;
-	letter-spacing: 0.25em;
-	margin-right: 3.5em;
+	  text-transform: uppercase;
+	  font-size: 1.2em;
+	  font-weight: 900;
+	  letter-spacing: 0.25em;
+	  margin-right: 3.5em;
 	}
 	.social-media {
-	text-transform: uppercase;
-	@include clearfix;
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
+	  text-transform: uppercase;
+	  @include clearfix;
+	  margin: 0;
+	  padding: 0;
+	  list-style-type: none;
 	li {
 	  float: left;
 	  margin-right: 0.9em;
@@ -37,14 +37,14 @@
 	  }
 	}
 	.phone {
-	margin-bottom: 0;
+	  margin-bottom: 0;
 	}
 	.language {
-	position: absolute;
-	top: 72px;
-	left: 510px;
+	  position: absolute;
+	  top: 72px;
+	  left: 510px;
 	}
 	a {
-	color: $black;
+	  color: $black;
 	}
 }
